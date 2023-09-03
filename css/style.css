@@ -1,0 +1,43 @@
+/* Start */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* font-family */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.form-test {
+    /* margin: auto; */
+    text-align: center;
+    /* width: 100%; */
+}
+.form-test form{
+    display: inline-block;
+    margin: 30px auto;
+}
+input[type="text"]{
+    padding: 13px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid #dcdde1;
+    float: left;
+}
+input[type="button"]{
+    padding: 13px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid #dcdde1;
+    background-color: #4cd137;
+    color: #fff;
+    width: 100px;
+    cursor: pointer;
+    display: none;
+    transition: .5s ease;
+}
+input:not(:placeholder-shown) + input[type="button"] {
+    display: block;
+}
