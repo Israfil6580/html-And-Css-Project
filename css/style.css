@@ -65,7 +65,7 @@ body{
     text-decoration: none;
     color: #446bd7;
 }
-@media (max-width: 768px){
+@media (max-width: 1080px){
     .signin_page {
         width: 96%;
         margin: 5% auto;
