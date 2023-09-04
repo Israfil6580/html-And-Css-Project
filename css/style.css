@@ -86,7 +86,14 @@ nav ul li:hover {
 nav ul li:hover ul {
     display: block;
 }
-.last_p ul{
-    position: absolute;
-    left: -130px;
+
+@media (max-width="768px") {
+    nav ul .last_pt ul {
+        position: absolute;
+        top: 87px;
+    }
+    .last_p ul{
+        position: absolute;
+        left: -130px;
+    }
 }
