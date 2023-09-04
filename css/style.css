@@ -25,8 +25,14 @@ body{
     font-weight: 300;
 }
 .first_p img {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.signin_page .second_p {
+    border: 1px solid #122048;
+    padding: 20px;
+    border-radius: 8px;
 }
 .signin_page .second_p form label,
 .signin_page .second_p form input
@@ -34,20 +40,18 @@ body{
     width: 100%;
     margin: 16px 0;
 }
-.signin_page .second_p form label {
-    font-size: 17px;
-}
 .signin_page .second_p form input{
     padding: 10px 5px;
-    font-size: 18px;
+    font-size: 16px;
     background: #00103a;
-    border: 1px solid #273c75;
-    border-radius: 10px;
+    border: 1px solid #142450;
+    border-radius: 6px;
     color: #fff;
 }
 .signin_page .second_p form input[type="button"] {
     background-color: #3fad2e;
     cursor: pointer;
+    font-weight: 500;
     transition: .3s;
 }
 .forget_pass_btn {
@@ -60,6 +64,9 @@ body{
 .third_p {
     text-align: center;
     margin-top: 30px;
+    border: 1px solid #122048;
+    padding: 20px;
+    border-radius: 8px;
 }
 .third_p a {
     text-decoration: none;
@@ -67,11 +74,11 @@ body{
 }
 @media (max-width: 1080px){
     .signin_page {
-        width: 96%;
+        width: 92%;
         margin: 5% auto;
-        padding: 2%;
+        padding: 4%;
     }
     .signin_page .second_p form input {
-        padding: 13px 7px;
+        padding: 7px;
     }
 }
