@@ -10,47 +10,26 @@
 </head>
 
 <body>
-
-    <div class="form-test">
-        <form action="">
-            <input type="text" name="" id="" placeholder="Search Anything">
-            <input type="button" value="Search ">
-        </form>
-    </div>
-    <h1 style="color: rgb(0, 176, 0); text-align: center;">Everything is practice</h1>
-    <!-- dropdown menu -->
-    <div class="navbar">
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Section</a>
-                    <ul style="position: absolute; left: -143px;">
-                        <li><a href="#">Dropdown Menu1</a></li>
-                        <li><a href="#">Dropdown Menu2</a></li>
-                        <li><a href="#">Dropdown Menu3</a></li>
-                        <li><a href="#">Dropdown Menu4</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Portfolio</a>
-                    <ul>
-                        <li><a href="#">Dropdown Menu1</a></li>
-                        <li><a href="#">Dropdown Menu2</a></li>
-                        <li><a href="#">Dropdown Menu3</a></li>
-                        <li><a href="#">Dropdown Menu4</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Blogs</a> <!-- last_p=last problem -->
-                    <ul style="position: absolute; left: -143px;">
-                        <li><a href="#">Dropdown Menu1</a></li>
-                        <li><a href="#">Dropdown Menu2</a></li>
-                        <li><a href="#">Dropdown Menu3</a></li>
-                        <li><a href="#">Dropdown Menu4</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+    <div class="signin_page">
+        <div class="first_p">
+            <img src="./images/github.svg" alt="">
+            <h1>Sign in to GitHub</h1>
+        </div>
+        <div class="second_p">
+            <form action="">
+                <label for="name">Username or email address</label>
+                <input type="text" name="name" id="signin">
+                <label for="password">Password</label>
+                <!-- forget pass btn start -->
+                <a class="forget_pass_btn" href="#">Forget password?</a>
+                <!-- forget pass btn end -->
+                <input type="password" name="password" id="signin">
+                <input type="button" value="Sign in">
+            </form>
+        </div>
+        <div class="third_p">
+            <p>New to GitHub? <a href="#">Create an account.</a></p>
+        </div>
     </div>
 </body>
 

@@ -1,5 +1,5 @@
 /* Start */
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 /* font-family */
 
 *{
@@ -8,82 +8,67 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Poppins', sans-serif;
-}
-.form-test {
-    /* margin: auto; */
-    text-align: center;
-    /* width: 100%; */
-}
-.form-test form{
-    display: inline-block;
-    margin: 30px auto;
-}
-input[type="text"]{
-    padding: 13px;
-    font-size: 17px;
-    border-radius: 5px;
-    border: 1px solid #dcdde1;
-    float: left;
-}
-input[type="button"]{
-    padding: 13px;
-    font-size: 17px;
-    border-radius: 5px;
-    border: 1px solid #dcdde1;
-    background-color: #4cd137;
+    font-family: 'Roboto', sans-serif;
+    background-color: #00103a;
     color: #fff;
-    width: 100px;
+}
+.signin_page {
+    width: 30%;
+    margin: 5% auto;
+    padding: 5%;
+}
+.first_p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.first_p h1 {
+    font-weight: 300;
+}
+.first_p img {
+    width: 70px;
+    height: 70px;
+}
+.signin_page .second_p form label,
+.signin_page .second_p form input
+{
+    width: 100%;
+    margin: 16px 0;
+}
+.signin_page .second_p form label {
+    font-size: 17px;
+}
+.signin_page .second_p form input{
+    padding: 10px 5px;
+    font-size: 18px;
+    background: #00103a;
+    border: 1px solid #273c75;
+    border-radius: 10px;
+    color: #fff;
+}
+.signin_page .second_p form input[type="button"] {
+    background-color: #3fad2e;
     cursor: pointer;
-    display: none;
-    transition: .5s ease;
-}
-input:not(:placeholder-shown) + input[type="button"] {
-    display: block;
-}
-
-/* dropdown menu */
-ul {
-    list-style-type: none;
-}
-a {
-    text-decoration: none;
-    color: #fff;
-    display: block;
-}
-nav {
-    background-color: #192a56;
-
-}
-nav ul {
-    text-align: center;
-    width: 90%;
-    margin: auto;
-}
-nav ul li {
-    display: inline-block;
-    padding: 10px 15px;
     transition: .3s;
-    cursor: pointer;
-    position: relative;
 }
-nav ul ul {
-    position: absolute;
-    top: 43px;
-    display: none;
-    z-index: 99;
+.forget_pass_btn {
+    float: right;
+    color: #446bd7;
 }
-nav ul ul li {
-    width: 200px;
-    background-color: #fbc531;
+.signin_page .second_p form input[type="button"]:hover{
+    background-color: #308523; 
 }
-nav ul ul li:hover{
-    background: #353b48;
+.third_p {
+    text-align: center;
+    margin-top: 30px;
 }
-nav ul li:hover {
-    background-color: #273c75;
-    /* display: none; */
+.third_p a {
+    text-decoration: none;
+    color: #446bd7;
 }
-nav ul li:hover ul {
-    display: block;
+@media (max-width: 768px){
+    .signin_page {
+        width: 80%;
+        margin: 5% auto;
+        padding: 5%;
+    }
 }
