@@ -71,6 +71,7 @@ nav ul ul {
     position: absolute;
     top: 43px;
     display: none;
+    z-index: 99;
 }
 nav ul ul li {
     width: 200px;
@@ -85,15 +86,4 @@ nav ul li:hover {
 }
 nav ul li:hover ul {
     display: block;
-}
-
-@media (max-width="768px") {
-    nav ul .last_pt ul {
-        position: absolute;
-        top: 87px;
-    }
-    .last_p ul{
-        position: absolute;
-        left: -130px;
-    }
 }
