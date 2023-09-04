@@ -67,8 +67,11 @@ body{
 }
 @media (max-width: 768px){
     .signin_page {
-        width: 80%;
+        width: 96%;
         margin: 5% auto;
-        padding: 5%;
+        padding: 2%;
+    }
+    .signin_page .second_p form input {
+        padding: 13px 7px;
     }
 }
