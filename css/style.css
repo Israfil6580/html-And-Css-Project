@@ -41,3 +41,52 @@ input[type="button"]{
 input:not(:placeholder-shown) + input[type="button"] {
     display: block;
 }
+
+/* dropdown menu */
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+nav {
+    background-color: #192a56;
+
+}
+nav ul {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+nav ul li {
+    display: inline-block;
+    padding: 10px 15px;
+    transition: .3s;
+    cursor: pointer;
+    position: relative;
+}
+nav ul ul {
+    position: absolute;
+    top: 43px;
+    display: none;
+}
+nav ul ul li {
+    width: 200px;
+    background-color: #fbc531;
+}
+nav ul ul li:hover{
+    background: #353b48;
+}
+nav ul li:hover {
+    background-color: #273c75;
+    /* display: none; */
+}
+nav ul li:hover ul {
+    display: block;
+}
+.last_p ul{
+    position: absolute;
+    left: -130px;
+}
